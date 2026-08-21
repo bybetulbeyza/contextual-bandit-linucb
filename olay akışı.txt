@@ -1,0 +1,26 @@
+              YENİ KULLANICI
+                    ↓
+             Context'i al
+                    ↓
+          X = [15 özellik]
+                    ↓
+       ┌────────────┴────────────┐
+       ↓       ↓       ↓         ↓
+     arm_0   arm_1   arm_2 ...  arm_4
+       ↓       ↓       ↓         ↓
+     tahmin  tahmin  tahmin    tahmin
+       └────────────┬────────────┘
+                    ↓
+             En iyi action'ı seç
+                    ↓
+             Örneğin arm_3
+                    ↓
+             Reklamı göster
+                    ↓
+              Kullanıcı tepki
+                    ↓
+             reward = 0/1
+                    ↓
+              Modeli güncelle
+                    ↓
+             SONRAKİ KULLANICI
